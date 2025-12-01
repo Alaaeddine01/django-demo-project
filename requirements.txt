@@ -1,0 +1,17 @@
+# Le framework principal
+Django>=5.1,<5.2
+
+# Serveur d'application (indispensable pour la prod)
+gunicorn
+
+# Gestion des variables d'environnement (.env)
+python-dotenv
+
+# Gestion des fichiers statiques en prod (CSS/JS)
+whitenoise
+
+# Base de données (PostgreSQL est le standard, utilisez 'mysqlclient' pour MySQL)
+psycopg2-binary
+
+# Traitement d'images (Optionnel, mais souvent requis pour ImageField)
+Pillow
